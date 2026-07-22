@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { background: #FBF9F4; color: #0F0E13; }
+* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* Mobile app-frame — makes the site feel like the Glamgo app on small screens.
+   On desktop we escape this frame and use full-width premium layout. */
+@media (min-width: 768px) {
+  .mobile-only { display: none !important; }
+}
+@media (max-width: 767px) {
+  .desktop-only { display: none !important; }
+}
+
+/* Soft gold underline for links */
+.link-gold { color: #B58863; }
+.link-gold:hover { text-decoration: underline; }
