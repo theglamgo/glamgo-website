@@ -29,7 +29,8 @@ export default function TermsPage() {
 
       <h2 className="mt-6 text-2xl font-black">6. Salon Owner &amp; Stylist Terms</h2>
       <ul className="list-disc pl-6 space-y-2">
-        <li>Providers must complete KYC (Aadhaar/PAN/GST/bank) before accepting bookings.</li>
+        <li>KYC is optional. Providers may create an account and start using the Platform without submitting Aadhaar, PAN, GST, or bank details. KYC documents may be submitted later from within the app when the provider chooses to.</li>
+        <li>KYC documents, once submitted, are visible only to authorised Glamgo Admin personnel and are used solely for provider verification and payout compliance.</li>
         <li>Platform commission, discount charge, referral share, and stylist commission are governed by the published Money Engine.</li>
         <li>Providers are solely responsible for the quality and safety of the service delivered at the salon.</li>
       </ul>
@@ -47,7 +48,7 @@ export default function TermsPage() {
       <p>These Terms are governed by the laws of India. Courts at Ahmedabad, Gujarat shall have exclusive jurisdiction.</p>
 
       <h2 className="mt-6 text-2xl font-black">11. Contact</h2>
-      <p>Email: <a className="link-gold" href="mailto:support@theglamgo.com">support@theglamgo.com</a></p>
+      <p>Email: <a className="link-gold" href="mailto:theglamgoapp@gmail.com">theglamgoapp@gmail.com</a></p>
     </article>
   );
 }
