@@ -14,7 +14,7 @@ export default function PrivacyPage() {
         <li><b>Bookings & payments:</b> Salon &amp; service selection, timings, wallet balance, coupon usage, referral codes, transaction history.</li>
         <li><b>Location:</b> With your permission, GPS coordinates for &quot;Nearby salons&quot; and &quot;I Have Arrived&quot; features.</li>
         <li><b>Device data:</b> Device model, OS version, app version, push-notification token (FCM), IP address for security.</li>
-        <li><b>KYC (owners/stylists):</b> Aadhaar, PAN, GST, bank account details for payouts.</li>
+        <li><b>KYC (owners/stylists, optional):</b> If a salon owner or stylist chooses to submit KYC, we collect documents such as Aadhaar, PAN, GST, or bank account information solely for provider verification and payout compliance. Providers may use Glamgo without submitting KYC; KYC documents, once submitted, are visible only to authorised Glamgo Admin personnel.</li>
       </ul>
 
       <h2 className="mt-8 text-2xl font-black">2. How We Use Information</h2>
@@ -33,7 +33,7 @@ export default function PrivacyPage() {
       <p>All data is transmitted over HTTPS/TLS. Passwords / secrets are hashed. Firebase and Razorpay handle sensitive credentials to industry standards. KYC documents are stored in access-controlled encrypted storage.</p>
 
       <h2 className="mt-8 text-2xl font-black">5. Retention</h2>
-      <p>We retain account and transaction data for the duration of your account, plus 7 years for tax/GST compliance. You may request deletion of your account at any time by writing to <a className="link-gold" href="mailto:support@theglamgo.com">support@theglamgo.com</a>.</p>
+      <p>We retain account and transaction data for the duration of your account, plus 7 years for tax/GST compliance. You may request deletion of your account at any time by writing to <a className="link-gold" href="mailto:theglamgoapp@gmail.com">theglamgoapp@gmail.com</a>.</p>
 
       <h2 className="mt-8 text-2xl font-black">6. Your Rights</h2>
       <ul className="list-disc pl-6 space-y-2">
@@ -46,7 +46,7 @@ export default function PrivacyPage() {
       <p>Glamgo is not directed to children under 13. We do not knowingly collect data from children.</p>
 
       <h2 className="mt-8 text-2xl font-black">8. Contact</h2>
-      <p>Email: <a className="link-gold" href="mailto:support@theglamgo.com">support@theglamgo.com</a> · Website: <a className="link-gold" href="https://theglamgo.com">theglamgo.com</a></p>
+      <p>Email: <a className="link-gold" href="mailto:theglamgoapp@gmail.com">theglamgoapp@gmail.com</a> · Website: <a className="link-gold" href="https://theglamgo.com">theglamgo.com</a></p>
     </article>
   );
 }
